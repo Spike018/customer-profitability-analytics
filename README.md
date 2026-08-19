@@ -16,23 +16,23 @@ Sourced from Kaggle (e-commerce transactions dataset). Contains ~113,270 transac
 - Office Supplies is the highest-profit category
 - West is the highest-profit region
 
-## Project Structure
-
-
-├── customer_profitability_analysis.sql
-├── Customer_Profitability_Analytics_PostgreSQL_Excel.xlsx
+Project Structure
+```
+├── customer\_profitability\_analysis.sql        # Full PostgreSQL script (cleaning → KPIs → RFM → segment analysis)
+├── Customer\_Profitability\_Analytics\_PostgreSQL\_Excel.xlsx  # Excel workbook with dashboard \& insights
 └── screenshots/
-    ├── 01_raw_dataset.png
-    ├── 02_data_cleaning.png
-    ├── 03_customer_profitability.png
-    ├── 04_kpi_analysis.png
-    ├── 05_rfm_segmentation.png
-    ├── 06_category_profitability.png
-    ├── 07_monthly_analysis.png
-    ├── 08_regional_profitability.png
-    ├── 09_discount_analysis.png
-    ├── 10_shipping_analysis.png
-    └── 11_high_revenue_low_margin.png
+    ├── 01\_raw\_dataset.png
+    ├── 02\_data\_cleaning.png
+    ├── 03\_customer\_profitability.png
+    ├── 04\_kpi\_analysis.png
+    ├── 05\_rfm\_segmentation.png
+    ├── 06\_category\_profitability.png
+    ├── 07\_monthly\_analysis.png
+    ├── 08\_regional\_profitability.png
+    ├── 09\_discount\_analysis.png
+    ├── 10\_shipping\_analysis.png
+    └── 11\_high\_revenue\_low\_margin.png
+```
 
 ## Screenshots
 Query outputs from pgAdmin 4, showing each stage of the analysis:
