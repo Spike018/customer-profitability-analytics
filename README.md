@@ -17,8 +17,9 @@ Sourced from Kaggle (e-commerce transactions dataset). Contains ~113,270 transac
 - West is the highest-profit region
 
 ## Project Structure
-├── customer_profitability_analysis.sql        # Full PostgreSQL script (cleaning → KPIs → RFM → segment analysis)
-├── Customer_Profitability_Analytics_PostgreSQL_Excel.xlsx  # Excel workbook with dashboard & insights
+```text
+├── customer_profitability_analysis.sql
+├── Customer_Profitability_Analytics_PostgreSQL_Excel.xlsx
 └── screenshots/
     ├── 01_raw_dataset.png
     ├── 02_data_cleaning.png
