@@ -17,7 +17,6 @@ Sourced from Kaggle (e-commerce transactions dataset). Contains ~113,270 transac
 - West is the highest-profit region
 
 ## Project Structure
-```
 ├── customer_profitability_analysis.sql        # Full PostgreSQL script (cleaning → KPIs → RFM → segment analysis)
 ├── Customer_Profitability_Analytics_PostgreSQL_Excel.xlsx  # Excel workbook with dashboard & insights
 └── screenshots/
@@ -32,24 +31,23 @@ Sourced from Kaggle (e-commerce transactions dataset). Contains ~113,270 transac
     ├── 09_discount_analysis.png
     ├── 10_shipping_analysis.png
     └── 11_high_revenue_low_margin.png
-```
 
 ## Screenshots
 Query outputs from pgAdmin 4, showing each stage of the analysis:
 
 | Step | Screenshot |
 |---|---|
-| Raw dataset row count | `screenshots/01_raw_dataset.png` |
-| Data cleaning (dates, margins, shipping delay) | `screenshots/02_data_cleaning.png` |
-| Customer profitability table | `screenshots/03_customer_profitability.png` |
-| Overall business KPIs | `screenshots/04_kpi_analysis.png` |
-| RFM segmentation results | `screenshots/05_rfm_segmentation.png` |
-| Category profitability | `screenshots/06_category_profitability.png` |
-| Monthly sales & profit trend | `screenshots/07_monthly_analysis.png` |
-| Regional profitability | `screenshots/08_regional_profitability.png` |
-| Discount bucket analysis | `screenshots/09_discount_analysis.png` |
-| Shipping delay analysis | `screenshots/10_shipping_analysis.png` |
-| High revenue / low margin outliers | `screenshots/11_high_revenue_low_margin.png` |
+| Raw dataset row count | [View Screenshot](screenshots/01_raw_dataset.png) |
+| Data cleaning (dates, margins, shipping delay) | [View Screenshot](screenshots/02_data_cleaning.png) |
+| Customer profitability table | [View Screenshot](screenshots/03_customer_profitability.png) |
+| Overall business KPIs | [View Screenshot](screenshots/04_kpi_analysis.png) |
+| RFM segmentation results | [View Screenshot](screenshots/05_rfm_segmentation.png) |
+| Category profitability | [View Screenshot](screenshots/06_category_profitability.png) |
+| Monthly sales & profit trend | [View Screenshot](screenshots/07_monthly_analysis.png) |
+| Regional profitability | [View Screenshot](screenshots/08_regional_profitability.png) |
+| Discount bucket analysis | [View Screenshot](screenshots/09_discount_analysis.png) |
+| Shipping delay analysis | [View Screenshot](screenshots/10_shipping_analysis.png) |
+| High revenue / low margin outliers | [View Screenshot](screenshots/11_high_revenue_low_margin.png) |
 
 ## SQL Script Overview
 1. Data quality check (missing values, record counts)
@@ -74,5 +72,6 @@ Executive Summary · Customer Profitability · RFM Segmentation · Monthly Analy
 2. Run `customer_profitability_analysis.sql` top to bottom
 3. Export results into Excel (or connect Excel to PostgreSQL) to rebuild the dashboard
 
+---
 
-Done by Raghavan Vagvala
+**Done by Raghavan Vagvala**
