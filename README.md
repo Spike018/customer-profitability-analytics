@@ -73,6 +73,6 @@ Executive Summary · Customer Profitability · RFM Segmentation · Monthly Analy
 1. Load the raw dataset into a PostgreSQL table named `ecommerce_raw`
 2. Run `customer_profitability_analysis.sql` top to bottom
 3. Export results into Excel (or connect Excel to PostgreSQL) to rebuild the dashboard
-4. ---
+
 
 Done by Raghavan Vagvala
